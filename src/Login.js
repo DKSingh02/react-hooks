@@ -16,6 +16,10 @@ export default function Login() {
     setPassword("");
   };
 
+  const updateUsername = event => {
+    setUsername(event.target.value);
+  };
+
   return (
     <div
       style={{
@@ -34,13 +38,13 @@ export default function Login() {
         <input
           type="text"
           placeholder="Username"
-          onChange={event => setUsername(event.target.value)}
+          onChange={(event) => updateUsername(event)}
           value={username}
         />
         <input
           type="password"
           placeholder="Password"
-          onChange={event => setPassword(event.target.value)}
+          onChange={(event) => setPassword(event.target.value)}
           value={password}
         />
         <button type="submit">Submit</button>

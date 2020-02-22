@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import App from "./AppClass";
 // import App from "./AppFunction";
-//import App from "./Login";
+// App from "./Login";
+import App from "./Register";
 //import App from "./AppDemoClass";
-import App from "./AppDemoFunc";
+//import App from "./AppDemoFunc";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
