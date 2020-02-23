@@ -1,5 +1,5 @@
 import React, { useContext, useReducer } from "react";
-import { UserContext } from "./index";
+import { UserContext } from "./index1";
 
 // Instead of using UserContext.Consumer and render props pattern
 // We can use useContext hook provided by react
